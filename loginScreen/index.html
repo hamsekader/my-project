@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+<section class="bg-gray-100 min-h-screen flex items-center justify-center">
+<!-- login container -->
+<div class="bg-white flex rounded-2xl shadow-lg max-w-3xl p-5">
+<!-- form -->
+<div class="w-full sm:w-1/2 px-8">
+<h2 class="font-bold text-2xl text-[#002D74]">Login</h2>
+<p class="text-sm mt-4 text-[#002D74]">
+If You Are Already A Member, Easily Log in
+</p>
+<form class="flex flex-col gap-4">
+<input class="p-2 mt-8 rounded-xl border" type="email" placeholder="Email">
+<div class="relative">
+<input class="p-2 pr-10 rounded-xl border w-full" type="password" placeholder="Password">
+<svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16"  fill="gray"class="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer"viewBox="0 0 16 16">
+<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+</svg>
+</div>
+<button class="bg-[#002D74] text-white py-2 rounded-xl w-full">Login</button>
+</form>
+<!-- OR -->
+<div class="mt-7 grid grid-cols-3 items-center text-gray-400">
+<hr>
+<p class="text-center">OR</p>
+<hr>
+</div>
+<!-- Google -->
+<button class=" mt-7 flex items-center justify-center gap-3 w-full bg-white border border-gray-300 rounded-xl py-2 text-gray-700 hover:bg-gray-100 transition">
+<svg class="w-5 h-5" viewBox="0 0 48 48">
+<path fill="#EA4335" d="M24 9.5c3.54 0 6.36 1.53 7.82 2.82l5.77-5.77C34.64 3.64 29.8 1.5 24 1.5 14.64 1.5 6.56 7.48 2.88 16.04l6.73 5.23C11.27 14.08 17.07 9.5 24 9.5z"/>
+<path fill="#4285F4" d="M46.5 24c0-1.64-.15-3.22-.43-4.74H24v9h12.7c-.55 2.96-2.2 5.47-4.68 7.16l7.27 5.64C43.98 36.68 46.5 30.88 46.5 24z"/>
+<path fill="#FBBC05" d="M9.61 28.27A14.5 14.5 0 0 1 8.5 24c0-1.48.26-2.91.73-4.27l-6.73-5.23A23.9 23.9 0 0 0 1.5 24c0 3.77.9 7.33 2.5 10.5l7.61-6.23z"/>
+<path fill="#34A853" d="M24 46.5c6.48 0 11.92-2.14 15.9-5.84l-7.27-5.64c-2.02 1.36-4.6 2.17-8.63 2.17-6.93 0-12.73-4.58-14.8-10.77l-7.61 6.23C6.56 40.52 14.64 46.5 24 46.5z"/>
+</svg>
+<span>Login with Google</span>
+</button>
+<p class="mt-5 text-xs text-[#002D74] border-b py-4">
+Forgot your password?
+</p>
+<div class="text-xs flex justify-between items-center mt-3 ">
+<p>If You Don't Have An Account...</p>
+<button class="bg-green-500 text-white py-2 px-5 border border-green-500 rounded-xl">
+Register
+</button>
+</div>
+</div>
+<!-- image -->
+<div class="hidden sm:block w-1/2">
+<img class="rounded-2xl" src="login.jpg" alt="Login Image">
+</div>
+</div>
+</section>
+</body>
+</html>
